@@ -90,7 +90,8 @@ a,
     color: #e5e7eb;
 }
 
-.logo {
+.logo,
+.fheader {
     font-size: 24px;
     color:#f9faf8;
 }
@@ -126,6 +127,7 @@ a {
     padding-block: 7px;
 }
 
+
 .header-img {
     width: 800px;
     height: 250px;
@@ -139,4 +141,39 @@ a {
 .content-footer {
     padding-left: 150px;
     padding-right: 150px;
+}
+
+.content-footer {
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    margin-inline: 150px;
+    height: 100px;
+    align-items: center;
+    margin-block: 80px ;
+    gap: 8px;
+}
+
+.fsignup {
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    font-size: 18px;
+    height: 70px;
 }
